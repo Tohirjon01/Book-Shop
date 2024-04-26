@@ -8,8 +8,6 @@ import uz.bookshop.repository.BookRepository;
 import uz.bookshop.repository.UserRepository;
 import uz.bookshop.service.BookService;
 
-import java.awt.print.Book;
-
 @Service
 public class BookServiceImpl implements BookService {
     private final BookRepository bookRepository;
@@ -20,16 +18,14 @@ public class BookServiceImpl implements BookService {
         this.userRepository = userRepository;
     }
 
+
     @Override
-    public BookResponseDTO createBook(BookRequestDTO bookRequestDTO) {
-        Book book = new Book();
-
-
+    public BookResponseDTO createBook(BookRequestDTO bookRequestDTO, HttpServletRequest httpServletRequest) {
         return null;
     }
 
     @Override
-    public BookResponseDTO updateBook(BookRequestDTO bookRequestDTO, Long id) {
+    public BookResponseDTO updateBook(BookRequestDTO bookRequestDTO, Long id, HttpServletRequest httpServletRequest) {
         return null;
     }
 
