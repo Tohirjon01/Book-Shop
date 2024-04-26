@@ -3,10 +3,7 @@ package uz.bookshop.service.impl;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Service;
 import uz.bookshop.dto.request.BookRequestDTO;
-import uz.bookshop.dto.request.UserRequestDTO;
 import uz.bookshop.dto.response.BookResponseDTO;
-import uz.bookshop.model.Roles;
-import uz.bookshop.model.Users;
 import uz.bookshop.repository.BookRepository;
 import uz.bookshop.repository.UserRepository;
 import uz.bookshop.service.BookService;
@@ -24,7 +21,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public BookResponseDTO createBook(BookRequestDTO bookRequestDTO, HttpServletRequest servletRequest) {
+    public BookResponseDTO createBook(BookRequestDTO bookRequestDTO) {
         Book book = new Book();
 
 
@@ -32,7 +29,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public BookResponseDTO updateBook(BookRequestDTO bookRequestDTO, Long id, HttpServletRequest servletRequest) {
+    public BookResponseDTO updateBook(BookRequestDTO bookRequestDTO, Long id) {
         return null;
     }
 
@@ -50,6 +47,7 @@ public class BookServiceImpl implements BookService {
     public BookResponseDTO getBookById(Long id, HttpServletRequest httpServletRequest) {
         return null;
     }
+
 
 
 }

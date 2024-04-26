@@ -52,4 +52,18 @@ public class GlobalExceptionHandler {
                 );
     }
 
+
+    @ExceptionHandler(BookException.class)
+    @ResponseBody
+    public ResponseEntity<Object> handleBookException(BookException bookException) {
+        log.error(bookException.getMessage());
+        return ResponseEntity
+                .status(HttpStatus.BAD_REQUEST)
+                .body(ErrorResponse_2
+                        .builder()
+                        .message(bookException.getMessage())
+                        .build()
+                );
+    }
+
 }
