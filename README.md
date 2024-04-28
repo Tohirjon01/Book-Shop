@@ -42,6 +42,6 @@ public class BookShopApplication {
 | 5  |        [Order Service]()         |   ♻️    |
 | 6  |   [Statistics Service]()    |   ♻️    |
 
->>>>origin/master
+
 
 ```
