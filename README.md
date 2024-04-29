@@ -27,7 +27,20 @@ This system includes:
 | 4  |          [Role Service ](https://github.com/Tohirjon01/Book-Shop/blob/master/src/main/java/uz/bookshop/controller/RoleController.java)          |   ✅    |
 | 5  |        [Order Service]()         |   ♻️    |
 | 6  |   [Statistics Service]()    |   ♻️    |
-
-
-
 ```
+```
+<details open>
+<summary> <b>About project</b>(click to expand or hide)</summary>
+  <details open>
+<summary><b>Sanction structure </b>(click to expand or hide)</summary>
+
+* [About project](#about-project)
+* [Project structure](#project-structure)
+* [Api](#api)
+* [Database structure in project](#database-structure-in-project)
+
+</details>
+
+</details>
+
+
