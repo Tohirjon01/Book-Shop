@@ -25,8 +25,7 @@ This system includes:
 | 2  |            [Book Service](https://github.com/Tohirjon01/Book-Shop/blob/master/src/main/java/uz/bookshop/controller/BookController.java)             |   ✅    |
 | 3  |         [Comment Service](https://github.com/Tohirjon01/Book-Shop/blob/master/src/main/java/uz/bookshop/service/CommentService.java)          |   ✅    |
 | 4  |          [Role Service ](https://github.com/Tohirjon01/Book-Shop/blob/master/src/main/java/uz/bookshop/controller/RoleController.java)          |   ✅    |
-| 5  |        [Order Service]()         |   ♻️    |
-| 6  |   [Statistics Service]()    |   ♻️    |
+| 5  |   [Statistics Service](https://github.com/Tohirjon01/Book-Shop/blob/master/src/main/java/uz/bookshop/service/CommentService.java)    |   ✅     |
 ```
 ```
 <details open>
